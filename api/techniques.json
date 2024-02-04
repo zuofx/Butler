@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Connect to phue lights",
+    "desc": "Turn on Philips Hue Light",
+    "prompt": "turn on the lights",
+    "script": "hue_lights.py",
+    "extra": {
+      "ip": "192.168.2.42",
+      "state": "True",
+      "hex": "#FFA500"
+    }
+  },
+  {
+    "name": "Turn on Computer",
+    "desc": "Wake Computer",
+    "prompt": "wake the computer",
+    "script": "wakecomputer.py",
+    "extra": {}
+  }
+]
